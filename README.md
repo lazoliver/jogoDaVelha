@@ -1,27 +1,34 @@
-# JogoDaVelha
+# Módulo Dois - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+​	Olá, este é o README para o Módulos 2 (Dois) do curso de Desenvolvimento front-end IGTI.
 
-## Development server
+​	Para começarmos efetivamente, vamos adicionar o angular ao ambiente de desenvolvimento utilizando o código: `npm install -g @angular/cli`, observação -g na linha de código adiciona o angular de forma global. Adicionamos a extensão Angular Language Service para otimizar a correção de bug's.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+​	Angular é um modelo de SPA (*Single Page Aplication*), um modelo de arquitetura no qual todo o CSS e JS são gerados com um único arquivo HTML.
 
-## Code scaffolding
+​	O próximo passo para começar a desenvolver nossa aplicação é criar um novo projeto e para isso utilizaremos o comando `ng new nome-do-app`;
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+​	O comando `ng generate component nome-do-component` para criarmos de forma automatizada a criação de um component. 
 
-## Build
+----
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Typescript
 
-## Running unit tests
+​	Iremos utilizar o Typescript pelos ótimos benefícios que ele oferece, alguns deles são:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Verificação de erros em tempos de compilação;
+* Maior facilidade para manter o código;
+* Melhor suporte ferramental (autocomplete).
 
-## Running end-to-end tests
+----
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Comando utilizados durante o módulo
 
-## Further help
+```
+npm install -g @angular/cli - adicionamos o angular ao ambiente de desenvolvimento;
+ng version - mostra a versão instalada do angular;
+ng new meu-app - comando para criar a aplicação angular;
+ng serve - executarmos a aplicação com live reload;
+ng build - criarmos o executável final da aplicação;
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
